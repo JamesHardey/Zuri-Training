@@ -16,6 +16,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6em;
+    background-color: rgb(252, 247, 247);
 }
 
 header {
@@ -390,6 +391,163 @@ img {
 }
 
 /* End of section-4 */
+
+
+
+/* Start of Section-5 */
+
+.section-5{
+    padding: 40px 20px;
+}
+
+.top-section-5{
+    width: 45%;
+    min-width: 200px;
+}
+
+.top-section-5 p{
+    font-size: 1.5rem;
+    color: red;
+    margin-top: 40px;
+}
+
+.top-section-5 h2{
+    font-size: 2.5rem;
+    line-height: 1.4em;
+    font-weight: 600;
+    color: #1d1d1d;
+}
+
+
+.program-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+
+.program-card{
+    background-color: #fff;
+    padding: 30px;
+    padding-bottom: 3px;
+    border-radius: 30px;
+    min-height: 300px;
+    box-shadow: 3px 3px 4px 4px rgba(240, 166, 166, 0.2);
+}
+
+.program-card h5{
+    font-size: 20px;
+    color: #1d1d1d;
+}
+
+
+.btn-container-5{
+    margin: 80px 0;
+    text-align: center;
+}
+
+.btn-5{
+    background-color: rgb(255, 30, 30);
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.images{
+    margin: 15px 0 20px;
+    display: flex;
+    gap: 20px;
+    width: fit-content;
+}
+
+
+.images img{
+    height: 30px;
+}
+
+/* End of Section-5 */
+
+
+
+/* Start of Section-6 */
+
+.top-box{
+    text-align: center;
+}
+
+.top-box p{
+    color: red;
+    margin: 8px 0;
+}
+
+.top-box h6{
+    font-size: 24px;
+    color: #1d1d1d;
+}
+
+.section-6 .faqs-boxes{
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-6 .faqs-boxes .faqs-box{
+    max-width: 800px;
+    width: 100%;
+    border: 1px solid #424242;
+    border-width: 1px 1px 0 1px;
+    cursor: pointer;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-6 .faqs-boxes .faqs-box p{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.section-6 .faqs-boxes .faqs-box span{
+    font-size: 24px;
+    color: #1d1d1d;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.section-6 .faqs-boxes .faqs-box:last-of-type{
+    border-width: 1px 1px 1px 1px;
+}
+
+.section-6 .faqs-boxes .faqs-box div:first-of-type{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.section-6 .faqs-boxes .faqs-box div:last-of-type{
+    display: none;
+}
+
+.section-6 .bottom-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 60px 0;
+}
+
+.section-6 .bottom-box a{
+    padding: 5px 15px;
+    background-color: red;
+    color: #fff;
+    border-radius: 30px;
+}
+
+/* End of Section-6 */
 
 
 
