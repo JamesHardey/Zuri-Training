@@ -348,7 +348,7 @@
             </div>
 
             <div class="faqs-boxes">
-                <div class="faqs-box" id="faq-1">
+                <div class="faqs-box" id="faq-1" onclick="dropDown(this.id)">
                     <div>
                         <p>Would I have to pay to enroll for the training?</p>
                         <span>+</span>
@@ -358,7 +358,7 @@
                     </div>
                 </div>
 
-                <div class="faqs-box" id="faq-2">
+                <div class="faqs-box" id="faq-2" onclick="dropDown(this.id)">
                     <div>
                         <p>What are the things I would need to participate?</p>
                         <span>+</span>
@@ -368,7 +368,7 @@
                     </div>
                 </div>
 
-                <div class="faqs-box" id="faq-3">
+                <div class="faqs-box" id="faq-3" onclick="dropDown(this.id)">
                     <div>
                         <p>What happens if i join and I’m not active?</p>
                         <span>+</span>
@@ -378,7 +378,7 @@
                     </div>
                 </div>
 
-                <div class="faqs-box" id="faq-4">
+                <div class="faqs-box" id="faq-4" onclick="dropDown(this.id)">
                     <div>
                         <p>Can I switch from the part-time track to full-time and vice versa?</p>
                         <span>+</span>
@@ -388,7 +388,7 @@
                     </div>
                 </div>
 
-                <div class="faqs-box" id="faq-5">
+                <div class="faqs-box" id="faq-5" onclick="dropDown(this.id)">
                     <div>
                         <p>Will I get paid?</p>
                         <span>+</span>
@@ -577,6 +577,13 @@
         </div>
     </footer>
 
+    <script type="text/javascript">
+        function dropDown(clickID) {
+            var parent = document.querySelector('#'+clickID);
+            var child = parent.querySelector('.faq-answer');
+            child.classList.toggle('display');
+        }
+    </script>
 </body>
 
 </html>

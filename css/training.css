@@ -528,8 +528,14 @@ img {
     gap: 10px;
 }
 
-.section-6 .faqs-boxes .faqs-box div:last-of-type{
+.faqs-box .faq-answer{
+    font-size: 13px;
     display: none;
+}
+
+
+.faq-answer.display{
+    display: block;
 }
 
 .section-6 .bottom-box{
